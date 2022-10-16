@@ -1,0 +1,32 @@
+@font-face {
+  font-family: SpaceTitle;
+  src: url('./fonts/space\ age.ttf') format('truetype');
+}
+
+.card-mission {
+  background-color: #ffffffce;
+  border: 2px solid yellow;
+  border-radius: 15px;
+  margin: 20px;
+  text-align: center;
+  width: 300px;
+}
+
+.title-mission {
+  align-items: center;
+  background-color: black;
+  color: yellow;
+  display: flex;
+  font-family: SpaceTitle , sans-serif;
+  font-size: 1em;
+  font-weight: 900;
+  height: 28px;
+  justify-content: center;
+  padding: 5px;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.6);
+}
+
+p {
+  color: black;
+  font-weight: 600;
+}

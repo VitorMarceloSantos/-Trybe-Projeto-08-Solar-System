@@ -1,0 +1,6 @@
+.container-planets {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  justify-content: center;
+}

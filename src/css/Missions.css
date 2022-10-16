@@ -1,0 +1,12 @@
+.define-max {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-missions {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80vw;
+}

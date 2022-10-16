@@ -1,0 +1,34 @@
+@font-face {
+  font-family: SpaceTitle;
+  src: url('./fonts/space\ age.ttf') format('truetype');
+}
+
+.container-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.container-card p {
+  color: yellow;
+  font-family: SpaceTitle , sans-serif;
+  font-size: 1.3em;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.6);
+}
+
+.container-card img {
+  max-width: 170px;
+}
+
+.container-card:hover {
+  border: 1.5px solid yellow;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-card:hover img {
+  max-width: 250px;
+}

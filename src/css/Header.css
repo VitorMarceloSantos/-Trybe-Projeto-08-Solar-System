@@ -1,0 +1,12 @@
+@font-face {
+  font-family: SpaceAge;
+  src: url('./fonts/star_jedi/starjedi/Starjhol.ttf') format('truetype');
+}
+
+h1 {
+  color: yellow;
+  font-family: SpaceAge , sans-serif;
+  font-size: 4em;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.6);
+}
